@@ -5,11 +5,15 @@ Assumes you have a local system with docker running on it. Check wiki for more d
 The Container image is based on Ubuntu 14.04. The default haproxy version from this version of Ubuntu distribution (apt-get cache) is based 1.4.24.
 
 To run the haproxy in a container:
+
 Download the Dockerfile
+
 Download the haproxy.cfg
 
 Create a directory in your local system
 Run the following commands after downloading Dockerfile for haproxy.
+
 docker build -t haproxy .
+
 docker run -p 1883:1883 -p 1936:1936 -d haproxy
 
