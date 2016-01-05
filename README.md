@@ -19,5 +19,5 @@ Run the following commands after downloading.
 - To check status of the container: **docker ps -a**  
 - To check the logs: **docker logs <container id>**
 
-To check the status and stats of the haproxy, from a browser: **http://_\<ip-address of the host running container_:1936\>**
+To check the status and stats of the haproxy, from a browser: **http://_\<ip-address of the host running container\>_:1936/**
 
