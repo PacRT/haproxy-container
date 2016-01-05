@@ -14,12 +14,8 @@ Download the **Dockerfile** and **haproxy.cfg** to this new directory
 
 Run the following commands after downloading.
 
-To build the haproxy docker image: **docker build -t haproxy .**
-
-To run the haproxy docker image:
-**docker run -p 1883:1883 -p 1936:1936 -d haproxy**
-
-To check status of the container: **docker ps -a**  
-  
-To check the logs: **docker logs <container id>**
+- To build the haproxy docker image: **docker build -t haproxy .**
+- To run the haproxy docker image: **docker run -p 1883:1883 -p 1936:1936 -d haproxy**
+- To check status of the container: **docker ps -a**  
+- To check the logs: **docker logs <container id>**
 
