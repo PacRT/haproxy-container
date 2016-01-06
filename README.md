@@ -1,5 +1,5 @@
 # Introduction
-Assumes you have a local system with docker running on it. Check wiki for more details.
+Assumes you have a local system with docker running on it. Check the [wiki](https://github.com/PacRT/GeneralDocsAndLinks) for more details.
 
 The Container image is based on Ubuntu 14.04. The default haproxy version from this version of Ubuntu distribution (apt-get cache) is based 1.4.24.
 
