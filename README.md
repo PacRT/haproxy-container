@@ -1,9 +1,9 @@
-# 1. Introduction
+# Introduction
 Assumes you have a local system with docker running on it. Check wiki for more details.
 
 The Container image is based on Ubuntu 14.04. The default haproxy version from this version of Ubuntu distribution (apt-get cache) is based 1.4.24.
 
-# 2. To run the haproxy in a container
+# To run the haproxy in a container
 
 Create a directory in your local system. 
 - Eg: _mkdir mqtthaproxy_
@@ -19,3 +19,5 @@ Run the following commands after downloading.
 
 To check the status and stats of the haproxy, from a browser: **http://_\<ip-address of the host running container\>_:1936/**
 
+# To Do
+- Include default and global options in haproxy.cfg
