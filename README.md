@@ -1,5 +1,3 @@
-# haproxy
-
 # 1. Introduction
 Assumes you have a local system with docker running on it. Check wiki for more details.
 
